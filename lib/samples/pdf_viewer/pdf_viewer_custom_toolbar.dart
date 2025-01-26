@@ -103,7 +103,7 @@ class _CustomToolbarPdfViewerState extends SampleViewState {
   @override
   void initState() {
     super.initState();
-    _documentPath = 'assets/pdf/gis_succinctly.pdf';
+    _documentPath = 'assets/pdf/Le_mie_preghiere.pdf';
     _isDesktopWeb = isDesktop &&
         model.isMobileResolution != null &&
         !model.isMobileResolution;

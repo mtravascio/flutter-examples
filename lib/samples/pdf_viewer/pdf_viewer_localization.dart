@@ -167,7 +167,7 @@ class _LocalizationPdfViewerState extends LocalizationSampleViewState {
                   return SfPdfViewerTheme(
                     data: const SfPdfViewerThemeData(),
                     child: SfPdfViewer.asset(
-                      'assets/pdf/flutter_succinctly.pdf',
+                      'assets/pdf/Le_mie_preghiere.pdf',
                       key: _pdfViewerKey,
                       canShowScrollHead: false,
                       onDocumentLoaded: (PdfDocumentLoadedDetails details) {
